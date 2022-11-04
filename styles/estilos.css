@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  background: linear-gradient(180deg, #390404 0%, rgba(129, 99, 148, 0) 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* ------------------- Estilos da foto do perfil header da page -----------  */
+
+.header-card_photo {
+  width: 21.5rem;
+  margin: 14px 16px;
+  border-radius: 1.5rem;
+  filter: drop-shadow(0px 4px 25px rgba(133, 7, 143, 0.3));
+}
+
+.card-title_info {
+  display: grid;
+  grid-template-columns: 7rem 15rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title_info h1 {
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+.card-title_info p {
+  font-size: 14px;
+  padding-left: 5px;
+  letter-spacing: 0.5px;
+}
