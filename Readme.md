@@ -2,12 +2,12 @@
 
 [Imagem-mobile-app](assets/mobile.jpg)
 
-- ##[Menu](menu)
-  - ###[Apresentação](Apresentação)
-  - ###[Objetivo](Objetivo)
-  - ###[O_que_aprendeu](O que aprendeu)
-  - ###[Techs_Util](Techs Utilizadas)
-  - ###[Backlog](Backlog)
+- [Menu](menu)
+  - [Apresentação](Apresentação)
+  - [Objetivo](Objetivo)
+  - [O-que-aprendeu](O que aprendeu)
+  - [Techs-Util](Techs Utilizadas)
+  - [Backlog](Backlog)
 
 ### Apresentação
 
