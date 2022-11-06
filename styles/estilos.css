@@ -20,7 +20,7 @@ body {
 
 .header-card_photo {
   width: 90%;
-  margin-bottom: 25px;
+  margin: 25px 0px 25px 0px;
   border-radius: 50%;
   filter: drop-shadow(0px 4px 25px rgba(133, 7, 143, 0.8));
 }
@@ -115,5 +115,4 @@ a {
 }
 
 /* Estilos Media Query */
-@media only screen and (min-width: 768px) {
-}
+@import "./mediaquery.css";
