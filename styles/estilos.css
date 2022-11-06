@@ -13,12 +13,19 @@ body {
 
 /* ------------------- Estilos da foto do perfil header da page -----------  */
 
+.header-card {
+  display: flex;
+  justify-content: center;
+}
+
 .header-card_photo {
-  width: 93%;
-  margin: 15px 16px 25px 16px;
+  width: 90%;
+  margin-bottom: 25px;
   border-radius: 50%;
   filter: drop-shadow(0px 4px 25px rgba(133, 7, 143, 0.8));
 }
+
+/* Estilos do Atividade e Nome */
 
 .card-title_info {
   display: grid;
@@ -40,12 +47,15 @@ body {
   font-weight: bold;
 }
 
+/* Estilos icones das redes sociais */
+
 .card-title_icons {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
+/* Icone Linkedin */
 .card-linkedin_icon {
   height: 50px;
   width: 50px;
@@ -80,6 +90,8 @@ a {
   opacity: 0.5;
 }
 
+/* Estilo do icone GitHub */
+
 .card-git_icon .git-icon {
   width: 60px;
   height: 60px;
@@ -100,4 +112,8 @@ a {
   margin: 0em 4em 0.5em 4em;
   text-align: center;
   font-size: 12px;
+}
+
+/* Estilos Media Query */
+@media only screen and (min-width: 768px) {
 }
