@@ -1,4 +1,13 @@
-@media (max-width: 480px) {
+@media (min-width: 480px) {
+  body {
+    background: #fff;
+  }
+  .header_card {
+    width: 490px;
+    height: 700px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #390404 0%, rgba(129, 99, 148, 0) 100%);
+  }
 }
 
 @media (max-width: 768px) {
