@@ -34,7 +34,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-evenly; */
   }
 
   .card-title_info h1 {
@@ -66,7 +65,4 @@
     margin: 0;
     padding: 3px;
   }
-  /* .card-linkedin_icon .card-git_icon {
-      margin: -5px ;
-    } */
 }
