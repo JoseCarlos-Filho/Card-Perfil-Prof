@@ -30,7 +30,6 @@ body {
 .card-title_info {
   display: grid;
   grid-template-columns: 10rem 15rem;
-  align-items: center;
   justify-content: center;
 }
 
@@ -115,33 +114,4 @@ a {
 }
 
 /* Estilos Media Query */
-/* @import url("./mediaquery.css"); */
-
-@media (min-width: 480px) {
-  body {
-    background: #fff;
-
-    display: flex;
-    justify-content: center;
-  }
-  .container-card {
-    width: 500px;
-    height: 700px;
-    border: 2px solid rgb(7, 7, 7);
-    border-radius: 10px;
-    background: linear-gradient(180deg, #390404 0%, rgba(129, 99, 148, 0) 100%);
-  }
-
-  .header-card_photo {
-    width: 80%;
-  }
-
-  .card-title {
-    display: flex;
-  }
-
-  .card-title_icons {
-    display: flex;
-    flex-direction: column;
-  }
-}
+@import url("./mediaquery.css");
