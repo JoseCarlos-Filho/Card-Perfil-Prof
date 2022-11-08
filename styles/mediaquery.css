@@ -12,7 +12,6 @@
     border-radius: 25px;
     box-shadow: 0px 10px 25px #471d1d;
     background: linear-gradient(180deg, #7b4545, rgba(125, 122, 127, 0) 100%);
-    /* filter: drop-shadow(0px 10px 25px #390404); */
   }
 
   .header-card_photo {
